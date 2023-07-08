@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    background-image: url(./chicken-dhum-biriyani-using-jeera-rice-spices-arranged-earthen-ware_527904-513.avif) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    /* height: 100vh; */
+    /* vh:view height & vw:view width */
+    /* width: 100vw; */
+
+}
+header{
+    background-color: black;
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    /*Opacity end*/
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    /* background-color: #66000000; */
+}
+.one{
+    display: flex;
+}
+
+/* adding css to logo */
+
+.one img{
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px 10px 10px;
+    
+}
+ /* adding css to heading */
+
+.one h1{
+    font-family: 'PT Serif', serif;
+    color: white;
+    margin: 20px 20px 0px 0px;
+}
+.one h1:hover{
+    cursor: pointer;
+}
+
+nav ul
+{
+    display: flex;
+    gap: 50px;
+    margin: 30px 20px 0px 20px;
+    /* justify-items: center; */
+    list-style: none;
+}
+nav ul li button{
+    background-color: transparent;
+    border-color: transparent;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-family: 'Arvo', serif;
+    font-size:  15px;
+    border-radius: 20px;
+}
+
+nav ul li button:hover{
+
+    background-color: #FFFFB7;
+    border-color: black;
+    height: 40px;
+    width: 100px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:  15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.two button{
+    margin: 35px 20px 0px 0px;
+    height: 30px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+.two button:hover{
+    background-color: black
+    ;
+    border-color: aliceblue;
+    font-family: 'Arvo', serif;
+    color: #FFFFB7;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFB7;
+    justify-content: space-between
+}
+.three p{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.three p span{
+    font-family: 'PT Serif', serif;
+    color: azure;
+}
+
+#four{
+    text-align: center;
+    
+
+}
+section nav{
+    justify-content: space-evenly;
+}
+section nav button
+{
+    height: 40px ;
+    width: 200px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif; 
+    margin: 20px;
+    font-size: 20px;
+    border-color: transparent;
+    
+}
+section nav button:hover{
+    height: 40px ;
+    width: 200px;
+    /* border-radius: 0px; */
+    font-family: 'Poppins', sans-serif; 
+    margin: 20px;
+    font-size: 20px;
+    border-color:black;
+    cursor: pointer;
+    background-color:#FFFFB7;
+}
+
+#five{
+    text-align: center;
+
+}
+.six{
+    display: flex;
+    flex-direction: column;
+}
+.six img{
+    height: 300px;
+    width: 400px;
+    
+}
+article{
+    justify-content: space-between;
+    
+}
+#five
+{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+article ul{
+    gap: 100px;
+    /* vertical lines */
+    /* border-left: 6px solid black;
+    height: 200px;
+    position:absolute;
+    left: 50%; */
+    display: flex;
+    /* margin: 20px; */
+}
+article  ul li{
+    /* vertical lines */
+        /* border-left: 6px solid white;
+    height: 200px;
+    position:absolute;
+    left: 50%; */
+    list-style: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+article ul li img{
+    height: 200px;
+    width: 400px;
+    /* border-radius: 50px;
+    border-color: white;
+} */
+margin: 20px;
+}
+article  ul li button{
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    background-color:transparent;
+    color: #FFFFB7;
+    font-family: 'PT Serif', serif;
+    border-color: transparent;
+
+}
+
+aside{
+    justify-content: space-between;
+}
+
+aside ul{
+    display: flex;
+    gap: 100px;
+}
+
+#seven
+{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+aside ul li img{
+height: 300px;
+width: 400px;
+margin: 20px;
+}
+aside ul{
+    list-style: none ;
+}
+aside ul li{
+    font-family:'PT Serif', serif ;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFB7;
+    word-spacing: 10px;
+
+}
+
+footer p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+footer nav{
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+#nine{
+    height: 150px;
+    width: 200px;
+}
+#ten{
+    height: 150px;
+    width: 200px;
+}
+#eleven{
+    height: 150px;
+    width: 200px;
+}
+
+footer nav img:hover{
+    cursor: pointer;
+}
+#twelve{
+    font-size: 20px;
+    text-decoration: none;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    
+}
